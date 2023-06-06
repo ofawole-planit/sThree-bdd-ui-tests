@@ -1,0 +1,33 @@
+image: cypress/base:latest
+
+pipelines:
+  default:
+    - step:
+        name: e2e Cypress UI tests
+        caches:
+          - node
+        script:
+          - yarn install
+          - yarn global add allure-commandline
+          - yarn run cy:allure
+          - apt-get update
+          - apt-get install -y openjdk-11-jdk
+          - wget https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.tgz
+          - tar -zxvf allure-2.14.0.tgz
+          - export PATH=$PATH:$(pwd)/allure-2.14.0/bin
+          - yarn run cy:allure-report-ci
+
+    - step:
+        name: Publish Allure report
+        script:
+          - apt-get update
+          - apt-get install -y unzip
+          - wget https://github.com/allure-framework/allure2/releases/download/2.22.1/allure-2.22.1.zip
+          - unzip allure-2.22.1.zip
+          - chmod +x allure-2.22.1/bin/allure
+          - allure-2.22.1/bin/allure --version
+          - nohup allure-2.22.1/bin/allure serve allure-report &
+          - sleep 10
+          - |
+            echo "Allure report is available at:"
+            echo "${BITBUCKET_GIT_HTTP_ORIGIN%/}/projects/${BITBUCKET_PROJECT_KEY}/repos/${BITBUCKET_REPO_SLUG}/browse/allure-report"

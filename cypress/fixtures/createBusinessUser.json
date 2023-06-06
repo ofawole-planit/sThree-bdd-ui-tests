@@ -1,0 +1,17 @@
+
+{
+    "alternateName": "",
+    "emailAddress": "kyan1@email.com",
+    "familyName": "Keith1",
+    "givenName": "Kyan",
+    "password": "liferay",
+    "customFields":[
+        {
+            "name":"userType",
+            "dataType": "Text",
+            "customValue": {
+            "data" :["BusinessUser"]
+            }
+        }
+    ]
+  }

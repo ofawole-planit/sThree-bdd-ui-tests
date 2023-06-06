@@ -1,0 +1,21 @@
+{ 
+    "json": {
+      "enabled": true, 
+      "output": "jsonlogs/log.json", 
+      "formatter": "cucumber-json-formatter" 
+    },
+    "messages": { 
+      "enabled": true, 
+      "output": "jsonlogs/messages.ndjson" 
+    },
+    "html": { 
+      "enabled": true 
+    },
+    "nonGlobalStepDefinitions": true,
+    
+    "stepDefinitions": [
+        "cypress/e2e/step_definitions/**/*.{js,ts}",
+        "cypress/e2e/step_definitions.{js,ts}",
+        "cypress/support/step_definitions/**/*.{js,ts}"
+      ]
+}

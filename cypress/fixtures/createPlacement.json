@@ -1,0 +1,316 @@
+{
+    "submission": {
+        "id": "b1f801e3-12e4-ed11-8846-6045bdd2c0f8",
+        "versionNumber": 0
+    },
+    "placementId": "{{placement_id}}",
+    "engagementId": "ab1cb043-66e3-ed11-8846-6045bdd2c192",
+    "clientId": "{{account_id}}",
+    "clientContactId": "f6a47f33-64e3-ed11-8846-6045bdd2c192",
+    "invoiceContactId": "f6a47f33-64e3-ed11-8846-6045bdd2c192",
+    "paperworkContactId": "f6a47f33-64e3-ed11-8846-6045bdd2c192",
+    "approver1Id": "f6a47f33-64e3-ed11-8846-6045bdd2c192",
+    "approver2Id": "f6a47f33-64e3-ed11-8846-6045bdd2c192",
+    "approver3Id": "f6a47f33-64e3-ed11-8846-6045bdd2c192",
+    "primaryAuthoriserId": "4fdd3e6d-65e3-ed11-8846-6045bdd2c192",
+    "secondaryAuthoriserId": "f6a47f33-64e3-ed11-8846-6045bdd2c192",
+    "clientOwnTimesheet": null,
+    "complexTimeSheet": false,
+    "convertedPlacementId": "",
+    "placementFrequency": null,
+    "costRate": null,
+    "clientInvoiceAddressId": "69fb79f6-63e3-ed11-8846-6045bdd2c192",
+    "clientSiteAddressId": "02c82feb-62e3-ed11-8846-6045bdd2c800",
+    "vacancyId": "",
+    "isMigrated": false,
+    "placementIdCode": "010185/00/02",
+    "name": "PM",
+    "dateStart": "2023-04-01",
+    "dateEnd": "2023-12-22",
+    "dateEndActual": "",
+    "daysPerWeek": 5,
+    "standardHours": 8,
+    "isExemptFromWorkingHours": false,
+    "isFinalised": true,
+    "isFixedTermContract": false,
+    "isHomeBased": false,
+    "isMarginOnly": false,
+    "isRebated": false,
+    "rebateOn": "2023-02-10T16:38:23.492Z",
+    "noticeCandidateWeeks": "2",
+    "noticeClientWeeks": "4",
+    "payrollNo": "125635",
+    "specialInstructionsCandidate": "n/a",
+    "specialInstructionsClient": "",
+    "marginPercent": 7.6923076923,
+    "marginValue": 8.46,
+    "markupPercent": 8.3333333333,
+    "permanentSalaryValue": null,
+    "permanentSalaryCurrency": {
+        "id": "",
+        "name": "",
+        "isoCurrencyCode": ""
+    },
+    "permPackageValue": null,
+    "permPackageCurrency": {
+        "id": "",
+        "name": "",
+        "isoCurrencyCode": ""
+    },
+    "permFeeValue": null,
+    "permFeePercentage": null,
+    "permFeeCurrency": {
+        "id": "",
+        "name": "",
+        "isoCurrencyCode": ""
+    },
+    "contPayValue": 120,
+    "contPayCurrency": {
+        "id": "e0d1eae4-7232-4bab-a2bd-058f5d9679d3",
+        "name": "US Dollar",
+        "isoCurrencyCode": "USD"
+    },
+    "tempPayValue": 101.52,
+    "tempPayCurrency": {
+        "id": "a86dd921-8db8-ec11-9840-6045bd0ff34b",
+        "name": "British Pound",
+        "isoCurrencyCode": "GBP"
+    },
+    "tempDeductionsValue": 0,
+    "tempDeductionsPercentage": 0,
+    "rebateAmount": null,
+    "rebateWeeks": null,
+    "rebateUntil": "",
+    "feeBasedOn": {
+        "id": null,
+        "name": ""
+    },
+    "type": {
+        "id": 143570001,
+        "name": "Contract"
+    },
+    "payInterval": {
+        "id": 939310000,
+        "name": "Weekly"
+    },
+    "onshoreOffshore": {
+        "id": 939310000,
+        "name": "Onshore"
+    },
+    "runningStatus": {
+        "id": 975310001,
+        "name": "Live"
+    },
+    "status": {
+        "id": 939310007,
+        "name": "Awaiting onboarding"
+    },
+    "standardRateType": {
+        "id": "1f0324b4-63f7-e111-b139-b499bafdbfca",
+        "name": "Standard Daily"
+    },
+    "rateFrequency": {
+        "id": "56df39a5-63f7-e111-b139-b499bafdbfca",
+        "name": "Daily"
+    },
+    "startDayOfWeek": {
+        "id": 2,
+        "name": "Tuesday"
+    },
+    "workPattern": {
+        "id": "a961ac2b-1f6a-41dd-82f7-a411db8df0f7",
+        "name": "Not Applicable",
+        "code": "NA"
+    },
+    "perDiemIncluded": {
+        "id": null,
+        "name": ""
+    },
+    "roleRequiresDriving": {
+        "id": "",
+        "name": ""
+    },
+    "screeningPartner":  "",
+    "screeningRequirement": {
+        "id": 0,
+        "name": ""
+    },
+    "candidate": {
+        "id": "{{candidate_id}}",
+        "candidateId": "L0000052971",
+        "dataRemovalRequested": "",
+        "emailAddress1": "johndoe@email.com",
+        "emailAddress2": "johndoe@email.com",
+        "firstName": "Doe",
+        "knownAs": "John Doe",
+        "lastName": "John",
+        "mobileHome": "01254789622",
+        "salutation": "Mr",
+        "title": "Mr",
+        "homeAddress": {
+            "addressid": "cbb9fa1e-c611-46c7-ab83-550351be160b",
+            "addressNumber": 2,
+            "addressType": {
+                "id": 1,
+                "name": "Bill To"
+            },
+            "name": "",
+            "line1": "Main Street",
+            "line2": "Gondola Drive,",
+            "line3": "Gondola Drive, Belle Isle",
+            "city": "orlando",
+            "county": "orlando",
+            "stateOrProvinceText": "Florida",
+            "stateOrProvinceLookup": {
+                "id": "97ee2576-abe8-464c-9a24-8ab8494ed2ed",
+                "name": "Florida",
+                "code": "FL"
+            },
+            "countryText": "United States",
+            "countryLookup": {
+                "id": "ab2e5f62-8437-448d-be5a-b16600273955",
+                "name": "United States",
+                "iso3DigitCode": "USA"
+            },
+            "postCode": "32801",
+            "postOfficeBox": ""
+        },
+        "workAddress": {
+            "addressid": "5c04e554-62e3-ed11-8846-6045bdd2c800",
+            "addressNumber": 3,
+            "addressType": {
+                "id": 1,
+                "name": "Bill To"
+            },
+            "name": "10a Bill to",
+            "line1": "Main Street",
+            "line2": "Gondola Drive,",
+            "line3": "Gondola Drive, Belle Isle",
+            "city": "orlando",
+            "county": "orlando",
+            "stateOrProvinceText": "Florida",
+            "stateOrProvinceLookup": {
+                "id":"97ee2576-abe8-464c-9a24-8ab8494ed2ed",
+                "name": "Florida",
+                "code": "FL"
+            },
+            "countryText": "United States",
+            "countryLookup": {
+                "id": "ab2e5f62-8437-448d-be5a-b16600273955",
+                "name": "United States",
+                "iso3DigitCode": "USA"
+            },
+            "postCode": "32801",
+            "postOfficeBox": ""
+        }
+    },
+
+"candidateCompany": {
+            "id": "ef298250-7519-ed11-9444-000d3ad6abf9",
+            "name": "Specialist Staffing Services Inc",
+            "companyType": {
+                "id": 143570000,
+                "name": "Company"
+            },
+            "emailAddress": "",
+            "vatRegistrationNumber": "",
+            "registrationNumber": "",
+            "line1": "",
+            "line2": "line1 value",
+            "line3": "line value",
+            "city": "city value",
+            "county": "county value",
+            "stateOrProvinceText": "USA",
+            "stateOrProvinceLookup": {
+                "id": "egd",
+                "name": "USA",
+                "code": "USA"
+            },
+            "countryText": "USA",
+            "countryLookup": {
+                "id": "3ee",
+                "name": "USA",
+                "iso3DigitCode": "USA"
+            },
+            "postCode": "58856"
+        },
+        "consultant": {
+            "id": "{{business_user_screen_name}}",
+            "firstName": "Keith",
+            "lastName": "Kyan",
+            "fullName": "Keith Kyan",
+            "internalEmailAddress": "kyankeith@email.com",
+            "domainName": "kyankeith@s3ms.com",
+            "azureActiveDirectoryObjectId": "{{business_user_screen_name}}"
+        },
+        "owner": {
+            "id": "7a28e0f1-a1b6-ed11-b596-002248079f70",
+            "firstName": "Srikanth",
+            "lastName": "Reddy",
+            "fullName": "Srikanth Reddy",
+            "internalEmailAddress": "s.reddy@sthree.com",
+            "domainName": "TPNDZM15@s3ms.com",
+            "azureActiveDirectoryObjectId": "486937b9-9cb1-459f-b551-409f5e369a2b"
+        },
+        "commissionConsultant0": {
+            "id": "5cba5442-1c01-ed11-82e5-6045bd117f41",
+            "percentageRate": null,
+            "percentageSplit": null,
+            "flatRate": null
+        },
+        "commissionConsultant1": {
+            "id": "",
+            "percentageRate": null,
+            "percentageSplit": null,
+            "flatRate": null
+        },
+        "commissionConsultant2": {
+            "id": "",
+            "percentageRate": null,
+            "percentageSplit": null,
+            "flatRate": null
+        },
+        "commissionConsultant3": {
+            "id": "",
+            "percentageRate": null,
+            "percentageSplit": null,
+            "flatRate": null
+        },
+        "placementRates": [
+            {
+                "id": "061db043-66e3-ed11-8846-6045bdd2c192",
+                "type": {
+                    "id": "1f0324b4-63f7-e111-b139-b499bafdbfca",
+                    "name": "Standard Daily"
+                },
+                "name": "Standard Daily",
+                "dateStart": "2023-04-01",
+                "dateEnd": "",
+                "payToCandidate": true,
+                "payValue": 120,
+                "payCurrency": {
+                    "id": "e0d1eae4-7232-4bab-a2bd-058f5d9679d3",
+                    "name": "US Dollar",
+                    "isoCurrencyCode": "USD"
+                },
+                "chargeToClient": true,
+                "chargeValue": 130,
+                "chargeCurrency": { 
+                    "id": "e0d1eae4-7232-4bab-a2bd-058f5d9679d3",
+                    "name": "US Dollar", 
+                    "isoCurrencyCode": "USD"
+                },
+                "rateFrequency": {
+                    "id": "56df39a5-63f7-e111-b139-b499bafdbfca",
+                    "name": "Daily"
+                }
+            }
+        ],
+        "purchaseOrders": [
+            {
+                "id": "",
+                "name": ""
+            }
+        ]
+
+}

@@ -1,0 +1,17 @@
+{
+  "alternateName": "88d263d5-ae28-42d2-8c58-e361c47016f5",
+  "emailAddress": "johndoe8@mail.com",
+  "familyName": "Doe1",
+  "givenName": "John",
+  "password": "liferay",
+  "jobTitle": "Contractor",
+  "customFields":[
+      {
+        "name":"userType",
+        "dataType": "Text",
+        "customValue": {
+          "data" :["Contractor"]
+        }
+      }
+    ]
+}
