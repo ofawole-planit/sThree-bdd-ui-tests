@@ -101,15 +101,15 @@ Given('user has right permmisson to create portal for a Contractor', () => {
         }).then((resp) => {
             expect(resp.status).to.eq(200);
             fs.writeFile(filePath, JSON.stringify(response, null, 2));
-            // cy.readFile('createClient.json').then((placementId) => {
-            //     placementId.placementId = `${resp.cadidate.id}`;
-            //     cy.writeFile('cypress/fixtures/createClient.json', placementId);
+            cy.readFile('createClient.json').then((placementId) => {
+                placementId.placementId = `${resp.cadidate.id}`;
+                cy.writeFile('cypress/fixtures/createClient.json', placementId);
 
-            //     // Assert the value has been written correctly
-            //     cy.readFile('cypress/fixtures/createClient.json').then((updatedID) => {
-            //         expect(updatedID.placementId).to.equal(`${resp.cadidate.id}`);
-            //     });
-            // });
+                // Assert the value has been written correctly
+                cy.readFile('cypress/fixtures/createClient.json').then((updatedID) => {
+                    expect(updatedID.placementId).to.equal(`${resp.cadidate.id}`);
+                });
+            });
         });
     });
 });
